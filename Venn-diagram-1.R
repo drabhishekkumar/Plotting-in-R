@@ -21,13 +21,10 @@ hs <- (science >= 60)
 ho <- (socst >= 60)
 # use limma package
 c5 <- cbind(hw, hm, hr, hs, ho)
-# use limma package
+# use count values
 a <- vennCounts(c5)
 # print a 
 a
-# use  vennDiagram package and print first venn diagram
+# use  vennDiagram package and print the venn diagram
 vennDiagram(a)
-# use colorful numbering in the vennDiagram and print second venn diagram
-vennDiagram(a, include = "both", 
-            names = c("High Writing", "High Math", "High Reading" , "High Science", "High Social Sc."), 
-            cex = 1, counts.col = "red")
+

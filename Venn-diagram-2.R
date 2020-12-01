@@ -21,7 +21,7 @@ hs <- (science >= 60)
 ho <- (socst >= 60)
 # use limma package
 c5 <- cbind(hw, hm, hr, hs, ho)
-# use limma package
+# use count values
 a <- vennCounts(c5)
 # print a 
 a

@@ -1,3 +1,4 @@
+#Venn-diagram-1.R
 #Venn-Digramm in R
 #Author: Abhishek Kumar 
 #Date: 1-12-2020
@@ -5,7 +6,7 @@
 # web: https://stats.idre.ucla.edu/sas/modules/sas-learning-moduleintroduction-to-the-features-of-sas/ (accessed December 1, 2020).
 # use limma package
 library(limma)
-# take a dataset from ucla
+# take a dataset from UCLA SAS website
 hsb2 <- read.csv("https://stats.idre.ucla.edu/wp-content/uploads/2016/02/hsb2-3.csv") 
 attach(hsb2)
 # take high writing with scores >=60)
